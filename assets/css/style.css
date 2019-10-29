@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(../images/background.jpg);
+}
+
+.divTitle{
+
+    font-family: 'Permanent Marker', cursive;
+    background-color: orange;
+    text-align: center;
+     
+}
+
+.divInstructions{ 
+    margin-top: 20px;
+    font-family: 'Song Myung', serif;
+    background-color: beige;
+    text-align: justify;
+}
+
+.divCount{
+    margin: 20px 0px 0px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    height: 200px;
+    background-color: mediumaquamarine;
+}
+
+.divScore{
+    margin-top: 20px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    height: 200px;
+    background-color: aqua;
+}
+.divCountPlayer{
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    background-color: lightseagreen;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Courgette|IBM+Plex+Sans|Permanent+Marker|Righteous|Song+Myung&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
@@ -41,36 +42,36 @@
         <div class="container">
                  <div class="row">
                      <div class="col-md-4  divCount">
-                         <h3>0</h3>
+                         <h3 id="compNumber">0</h3>
                      </div>
                      <div class="col-md-4">
                             
                     </div>
                      <div class="col-md-4 divScore">
-                         <h4>Wins: 0</h4>
-                         <h4>Loses: 0</h4>
+                         <h4 id="winner">Wins: 0</h4>
+                         <h4 id="loser">Loses: 0</h4>
                      </div>
                  </div>
                  <div class="row divImage">
                         <div class="col-md-3">
-                            <img id="img" src="assets/images/Crystal1.png" class="img-fluid" alt="Responsive image">
+                            <img id="img"  value = "0" src="assets/images/Crystal1.png" class="img-fluid crystalOneN" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img id="img" src="assets/images/Crystal2.png" class="img-fluid" alt="Responsive image">
+                            <img id="img"  value = "0" src="assets/images/Crystal2.png" class="img-fluid crystalTwoN" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img id="img" src="assets/images/Crystal3.png" class="img-fluid" alt="Responsive image">
+                            <img id="img"  value = "0" src="assets/images/Crystal3.png" class="img-fluid crystalThreeN" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img id="img" src="assets/images/Crystal4.png" class="img-fluid" alt="Responsive image">
+                            <img id="img" value = "0" src="assets/images/Crystal4.png" class="img-fluid crystalFourN " alt="Responsive image">
                         </div>
                     </div>
                     <div class="row">
                             <div class="col-md-6  divCountPlayer">
-                                <h2>You total Score is:</h2>
+                                <h2>You Score is:</h2>
                             </div>
                             <div class="col-md-6  divCountPlayer">
-                                    <h2>0</h2>
+                                    <h2 id="scoreC">0</h2>
                             </div>
                     </div>             
         </div>
